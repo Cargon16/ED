@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\Carlos\Documents\Git\EjerciciosED\Evaluacion20-05\Evaluacion20-05\Source.cpp(89,22): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Carlos\Documents\Git\EjerciciosED\Evaluacion20-05\Evaluacion20-05\Source.cpp(106,21): warning C4018: '<': no coinciden signed/unsigned
+  Evaluacion20-05.vcxproj -> C:\Users\Carlos\Documents\Git\EjerciciosED\Evaluacion20-05\Debug\Evaluacion20-05.exe

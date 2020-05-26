@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio4\Ejercicio4\polinomio.h(26,21): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio4\Ejercicio4\polinomio.h(27,1): warning C4244: '+=': conversión de 'double' a 'int'; posible pérdida de datos
+  Ejercicio4.vcxproj -> C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio4\Debug\Ejercicio4.exe

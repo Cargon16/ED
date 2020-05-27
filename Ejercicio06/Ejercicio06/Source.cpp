@@ -39,7 +39,7 @@ bool resuelveCaso() {
         }
         ++i;
     }
-    if (correcto) std::cout << "SI" << std::endl;
+    if (correcto && pila.empty()) std::cout << "SI" << std::endl;
     else std::cout << "NO" << std::endl;
     // escribir sol
 

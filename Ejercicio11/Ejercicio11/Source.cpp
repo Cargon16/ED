@@ -18,7 +18,12 @@ public:
         Nodo* aux = nullptr;
         Nodo* ant = nullptr;
 
-        if (this->empty()) this->copia(cola);
+        if (this->empty()){
+			//this->copia(cola);
+			this->prim = cola.prim;
+			this->nelems = cola.nelems;
+			this->ult = cola.ult;
+		}
         else {
             while (act1 != nullptr) {
                 while (act2 != nullptr && act1->elem >= act2->elem) {

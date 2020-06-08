@@ -61,9 +61,9 @@ bool resuelveCaso() {
         transformaAX1(l);
         transformaAX(l);
     }
-    for (int i = 0; i < l.size(); ++i) {
-        std::cout << l.at(i);
-    }
+    for(auto it = l.cbegin(); it != l.cend(); ++it){
+		std::cout << *it << " ";
+	}
     std::cout << std::endl;
     // escribir sol
 

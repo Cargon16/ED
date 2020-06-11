@@ -1,0 +1,32 @@
+if (raiz == nullptr) return true;
+        int maxIz = -1, minDer = this->root();
+        if (raiz->left != nullptr || raiz->right != nullptr) {
+            if (raiz->left != nullptr) {
+                maxIz = esBusqueda(raiz->left, true, resultado);
+                if (maxIz >= raiz->elem) resultado = false;
+            }
+            if (raiz->right != nullptr && resultado) {
+                minDer = esBusqueda(raiz->right, false, resultado);
+                if (minDer <= raiz->elem) resultado = false;
+            }
+            
+            if(resultado) {
+                if (lado) {
+                    if (raiz->right != nullptr)
+                        return std::max(minDer, raiz->elem);
+                    else return std::max(maxIz, raiz->elem);
+                }
+                else {
+                    if (raiz->left != nullptr)
+                        return std::min(maxIz, raiz->elem);
+                    else return std::min(minDer, raiz->elem);
+                }
+            }
+        }
+        else {
+            if (lado) return raiz->elem; // std::max(maxIz, raiz->elem);
+            else return raiz->elem; //std::min(minDer, raiz->elem);
+
+
+        }
+        return 1;

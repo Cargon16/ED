@@ -8,7 +8,7 @@
 #include "bintree_eda.h"
 
 // función que resuelve el problema
-int resolver(const bintree<int> &a, int &navegar, bool primero) {
+/*int resolver(const bintree<int> &a, int &navegar, bool primero) {
     int iz = 0, der = 0;
     if (a.left().empty() && a.right().empty()) return 1;
     if (!a.left().empty() || !a.right().empty()) {
@@ -16,6 +16,23 @@ int resolver(const bintree<int> &a, int &navegar, bool primero) {
             iz = resolver(a.left(), navegar, false);
         if (!a.right().empty())
             der = resolver(a.right(), navegar, false);
+        if (iz + der - a.root() >= 3 && !primero) navegar++;
+        if (iz + der - a.root() >= 0)  return iz + der - a.root();
+        else return 0;
+       
+    }
+
+}*/
+int resolver(const bintree<int> &a, int &navegar, bool primero) {
+    int Tramosiz = 0, Tramosder = 0;
+    int iz = 0, der = 0;
+    if (a.left().empty() && a.right().empty()) return 1;
+    if (!a.left().empty() || !a.right().empty()) {
+        if (!a.left().empty())
+            iz = resolver(a.left(), Tramosiz, false);
+        if (!a.right().empty())
+            der = resolver(a.right(), Tramosder, false);
+        navegar = Tramosiz + Tramosder;
         if (iz + der - a.root() >= 3 && !primero) navegar++;
         if (iz + der - a.root() >= 0)  return iz + der - a.root();
         else return 0;

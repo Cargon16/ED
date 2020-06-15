@@ -8,7 +8,23 @@
 #include "bintree_eda.h"
 
 // función que resuelve el problema
-bool resolver(const bintree<int> &a, int suma, int &maximo, bool ancestro) {
+bool resolver(const bintree<int>& a, int suma, int& maximo, bool ancestro) {
+    bool iz = true, der = true;
+    if (a.empty()) return false;
+    if (a.left().empty() && a.right().empty()) {
+        if (ancestro && maximo < suma + a.root()) maximo = suma + a.root();
+        return suma + a.root() > 0 && ancestro;
+    }
+
+    if (!a.left().empty() && ancestro) 
+        iz = resolver(a.left(), suma + a.root(), maximo, ancestro && suma+a.root() > 0);
+    if (!a.right().empty() && ancestro)
+        der = resolver(a.right(), suma + a.root(), maximo, ancestro && suma + a.root() > 0);
+
+    return iz || der;
+
+}
+/*bool resolver(const bintree<int> &a, int suma, int &maximo, bool ancestro) {
     bool iz = false, der = false;
     int maximoIz = 0, maximoDer = 0;
     if (a.left().empty() && a.right().empty()) {
@@ -40,7 +56,7 @@ bool resolver(const bintree<int> &a, int suma, int &maximo, bool ancestro) {
         else return false;
     }
 }
-
+*/
 // Resuelve un caso de prueba, leyendo de la entrada la
 // configuración, y escribiendo la respuesta
 void resuelveCaso() {

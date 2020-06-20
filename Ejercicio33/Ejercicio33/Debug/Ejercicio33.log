@@ -1,0 +1,78 @@
+﻿  Source.cpp
+C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio33\Ejercicio33\hashmap_eda.h(273,24): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio33\Ejercicio33\hashmap_eda.h(270): message : al compilar la función del miembro clase plantilla "unordered_map<std::string,tProblema,std::hash<Clave>,std::equal_to<Clave>>::Iterador<false>::Iterador(unordered_map<Clave,tProblema,std::hash<Clave>,std::equal_to<Clave>> *,bool)"
+          with
+          [
+              Clave=std::string
+          ]
+C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio33\Ejercicio33\hashmap_eda.h(333): message : Vea la referencia a la creación de una instancia de la función plantilla "unordered_map<std::string,tProblema,std::hash<Clave>,std::equal_to<Clave>>::Iterador<false>::Iterador(unordered_map<Clave,tProblema,std::hash<Clave>,std::equal_to<Clave>> *,bool)" que se está compilando
+          with
+          [
+              Clave=std::string
+          ]
+C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio33\Ejercicio33\Source.cpp(67): message : Vea la referencia a la creación de una instancia de clase plantilla "unordered_map<std::string,tProblema,std::hash<Clave>,std::equal_to<Clave>>::Iterador<false>" que se está compilando
+          with
+          [
+              Clave=std::string
+          ]
+C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio33\Ejercicio33\hashmap_eda.h(276,24): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio33\Ejercicio33\hashmap_eda.h(297,41): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio33\Ejercicio33\hashmap_eda.h(293): message : al compilar la función del miembro clase plantilla "void unordered_map<std::string,tProblema,std::hash<Clave>,std::equal_to<Clave>>::Iterador<true>::next(void)"
+          with
+          [
+              Clave=std::string
+          ]
+C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio33\Ejercicio33\hashmap_eda.h(251): message : Vea la referencia a la creación de una instancia de la función plantilla "void unordered_map<std::string,tProblema,std::hash<Clave>,std::equal_to<Clave>>::Iterador<true>::next(void)" que se está compilando
+          with
+          [
+              Clave=std::string
+          ]
+C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio33\Ejercicio33\Source.cpp(38): message : Vea la referencia a la creación de una instancia de clase plantilla "unordered_map<std::string,tProblema,std::hash<Clave>,std::equal_to<Clave>>::Iterador<true>" que se está compilando
+          with
+          [
+              Clave=std::string
+          ]
+C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio33\Ejercicio33\hashmap_eda.h(219,2): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio33\Ejercicio33\hashmap_eda.h(217): message : al compilar la función del miembro clase plantilla "void unordered_map<std::string,tProblema,std::hash<Clave>,std::equal_to<Clave>>::amplia(void)"
+          with
+          [
+              Clave=std::string
+          ]
+C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio33\Ejercicio33\hashmap_eda.h(96): message : Vea la referencia a la creación de una instancia de la función plantilla "void unordered_map<std::string,tProblema,std::hash<Clave>,std::equal_to<Clave>>::amplia(void)" que se está compilando
+          with
+          [
+              Clave=std::string
+          ]
+C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio33\Ejercicio33\hashmap_eda.h(31): message : Vea la referencia a la creación de una instancia de clase plantilla "unordered_map<std::string,tProblema,std::hash<Clave>,std::equal_to<Clave>>" que se está compilando
+          with
+          [
+              Clave=std::string
+          ]
+C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio33\Ejercicio33\Source.cpp(37): message : Vea la referencia a la creación de una instancia de clase plantilla "unordered_map<std::string,unordered_map<std::string,tProblema,std::hash<Clave>,std::equal_to<Clave>>,std::hash<Clave>,std::equal_to<Clave>>::clave_valor" que se está compilando
+          with
+          [
+              Clave=std::string
+          ]
+C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio33\Ejercicio33\hashmap_eda.h(177,2): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio33\Ejercicio33\hashmap_eda.h(176): message : al compilar la función del miembro clase plantilla "void unordered_map<std::string,tProblema,std::hash<Clave>,std::equal_to<Clave>>::libera(void)"
+          with
+          [
+              Clave=std::string
+          ]
+C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio33\Ejercicio33\hashmap_eda.h(86): message : Vea la referencia a la creación de una instancia de la función plantilla "void unordered_map<std::string,tProblema,std::hash<Clave>,std::equal_to<Clave>>::libera(void)" que se está compilando
+          with
+          [
+              Clave=std::string
+          ]
+C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio33\Ejercicio33\hashmap_eda.h(163,2): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio33\Ejercicio33\hashmap_eda.h(161): message : al compilar la función del miembro clase plantilla "void unordered_map<std::string,tProblema,std::hash<Clave>,std::equal_to<Clave>>::copia(const unordered_map<Clave,tProblema,std::hash<Clave>,std::equal_to<Clave>> &)"
+          with
+          [
+              Clave=std::string
+          ]
+C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio33\Ejercicio33\hashmap_eda.h(73): message : Vea la referencia a la creación de una instancia de la función plantilla "void unordered_map<std::string,tProblema,std::hash<Clave>,std::equal_to<Clave>>::copia(const unordered_map<Clave,tProblema,std::hash<Clave>,std::equal_to<Clave>> &)" que se está compilando
+          with
+          [
+              Clave=std::string
+          ]
+  Ejercicio33.vcxproj -> C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio33\Debug\Ejercicio33.exe

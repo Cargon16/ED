@@ -1,0 +1,9 @@
+nuevo 123A
+nuevo 123A
+quitar 123A 15
+cuantos_con_puntos 15
+cuantos_con_puntos 0
+quitar 123A 1
+cuantos_con_puntos 0
+quitar 456B 2
+FIN

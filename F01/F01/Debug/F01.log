@@ -1,0 +1,75 @@
+﻿  Source.cpp
+C:\Users\agoni\Documents\Git\EjerciciosED\F01\F01\Source.cpp(19,26): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\agoni\Documents\Git\EjerciciosED\F01\F01\Source.cpp(68,23): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\agoni\Documents\Git\EjerciciosED\F01\F01\hashmap_eda.h(219,2): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\agoni\Documents\Git\EjerciciosED\F01\F01\hashmap_eda.h(217): message : al compilar la función del miembro clase plantilla "void unordered_map<std::string,int,std::hash<Clave>,std::equal_to<Clave>>::amplia(void)"
+          with
+          [
+              Clave=std::string
+          ]
+C:\Users\agoni\Documents\Git\EjerciciosED\F01\F01\hashmap_eda.h(135): message : Vea la referencia a la creación de una instancia de la función plantilla "void unordered_map<std::string,int,std::hash<Clave>,std::equal_to<Clave>>::amplia(void)" que se está compilando
+          with
+          [
+              Clave=std::string
+          ]
+C:\Users\agoni\Documents\Git\EjerciciosED\F01\F01\Source.cpp(23): message : Vea la referencia a la creación de una instancia de clase plantilla "unordered_map<std::string,int,std::hash<Clave>,std::equal_to<Clave>>" que se está compilando
+          with
+          [
+              Clave=std::string
+          ]
+C:\Users\agoni\Documents\Git\EjerciciosED\F01\F01\hashmap_eda.h(177,2): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\agoni\Documents\Git\EjerciciosED\F01\F01\hashmap_eda.h(176): message : al compilar la función del miembro clase plantilla "void unordered_map<std::string,int,std::hash<Clave>,std::equal_to<Clave>>::libera(void)"
+          with
+          [
+              Clave=std::string
+          ]
+C:\Users\agoni\Documents\Git\EjerciciosED\F01\F01\hashmap_eda.h(86): message : Vea la referencia a la creación de una instancia de la función plantilla "void unordered_map<std::string,int,std::hash<Clave>,std::equal_to<Clave>>::libera(void)" que se está compilando
+          with
+          [
+              Clave=std::string
+          ]
+C:\Users\agoni\Documents\Git\EjerciciosED\F01\F01\hashmap_eda.h(273,24): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\agoni\Documents\Git\EjerciciosED\F01\F01\hashmap_eda.h(270): message : al compilar la función del miembro clase plantilla "unordered_map<int,bool,std::hash<int>,std::equal_to<Clave>>::Iterador<false>::Iterador(unordered_map<Clave,bool,std::hash<int>,std::equal_to<Clave>> *,bool)"
+          with
+          [
+              Clave=int
+          ]
+C:\Users\agoni\Documents\Git\EjerciciosED\F01\F01\hashmap_eda.h(333): message : Vea la referencia a la creación de una instancia de la función plantilla "unordered_map<int,bool,std::hash<int>,std::equal_to<Clave>>::Iterador<false>::Iterador(unordered_map<Clave,bool,std::hash<int>,std::equal_to<Clave>> *,bool)" que se está compilando
+          with
+          [
+              Clave=int
+          ]
+C:\Users\agoni\Documents\Git\EjerciciosED\F01\F01\Source.cpp(21): message : Vea la referencia a la creación de una instancia de clase plantilla "unordered_map<int,bool,std::hash<int>,std::equal_to<Clave>>::Iterador<false>" que se está compilando
+          with
+          [
+              Clave=int
+          ]
+C:\Users\agoni\Documents\Git\EjerciciosED\F01\F01\hashmap_eda.h(276,24): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\agoni\Documents\Git\EjerciciosED\F01\F01\hashmap_eda.h(297,41): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\agoni\Documents\Git\EjerciciosED\F01\F01\hashmap_eda.h(293): message : al compilar la función del miembro clase plantilla "void unordered_map<std::string,unordered_map<int,bool,std::hash<int>,std::equal_to<Clave>>,std::hash<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::equal_to<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>::Iterador<false>::next(void)"
+          with
+          [
+              Clave=int
+          ]
+C:\Users\agoni\Documents\Git\EjerciciosED\F01\F01\hashmap_eda.h(251): message : Vea la referencia a la creación de una instancia de la función plantilla "void unordered_map<std::string,unordered_map<int,bool,std::hash<int>,std::equal_to<Clave>>,std::hash<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::equal_to<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>::Iterador<false>::next(void)" que se está compilando
+          with
+          [
+              Clave=int
+          ]
+C:\Users\agoni\Documents\Git\EjerciciosED\F01\F01\Source.cpp(20): message : Vea la referencia a la creación de una instancia de clase plantilla "unordered_map<std::string,unordered_map<int,bool,std::hash<int>,std::equal_to<Clave>>,std::hash<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::equal_to<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>::Iterador<false>" que se está compilando
+          with
+          [
+              Clave=int
+          ]
+C:\Users\agoni\Documents\Git\EjerciciosED\F01\F01\hashmap_eda.h(163,2): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\agoni\Documents\Git\EjerciciosED\F01\F01\hashmap_eda.h(161): message : al compilar la función del miembro clase plantilla "void unordered_map<int,bool,std::hash<int>,std::equal_to<Clave>>::copia(const unordered_map<Clave,bool,std::hash<int>,std::equal_to<Clave>> &)"
+          with
+          [
+              Clave=int
+          ]
+C:\Users\agoni\Documents\Git\EjerciciosED\F01\F01\hashmap_eda.h(73): message : Vea la referencia a la creación de una instancia de la función plantilla "void unordered_map<int,bool,std::hash<int>,std::equal_to<Clave>>::copia(const unordered_map<Clave,bool,std::hash<int>,std::equal_to<Clave>> &)" que se está compilando
+          with
+          [
+              Clave=int
+          ]
+  F01.vcxproj -> C:\Users\agoni\Documents\Git\EjerciciosED\F01\Debug\F01.exe

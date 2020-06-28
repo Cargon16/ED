@@ -3,7 +3,7 @@ nuevoLibro 20 Heidi
 nuevoLibro 30 Caperucita roja
 comprar Heidi
 elimLibro Heidi
-numEjemplares Caperucita roja
+numEjemplares Caperucita
 top10
 8
 nuevoLibro 1 La vuelta al mundo en 80 dias

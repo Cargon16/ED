@@ -1,0 +1,30 @@
+﻿  Source.cpp
+C:\Users\Carlos\Documents\Git\EjerciciosED\Ejercicio37\Ejercicio37\Source.cpp(57,32): warning C4101: 'e': variable local sin referencia
+C:\Users\Carlos\Documents\Git\EjerciciosED\Ejercicio37\Ejercicio37\hashmap_eda.h(219,2): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Carlos\Documents\Git\EjerciciosED\Ejercicio37\Ejercicio37\hashmap_eda.h(217): message : al compilar la función del miembro clase plantilla "void unordered_map<std::string,std::string,std::hash<Clave>,std::equal_to<Clave>>::amplia(void)"
+          with
+          [
+              Clave=std::string
+          ]
+C:\Users\Carlos\Documents\Git\EjerciciosED\Ejercicio37\Ejercicio37\hashmap_eda.h(135): message : Vea la referencia a la creación de una instancia de la función plantilla "void unordered_map<std::string,std::string,std::hash<Clave>,std::equal_to<Clave>>::amplia(void)" que se está compilando
+          with
+          [
+              Clave=std::string
+          ]
+C:\Users\Carlos\Documents\Git\EjerciciosED\Ejercicio37\Ejercicio37\Header.h(12): message : Vea la referencia a la creación de una instancia de clase plantilla "unordered_map<std::string,std::string,std::hash<Clave>,std::equal_to<Clave>>" que se está compilando
+          with
+          [
+              Clave=std::string
+          ]
+C:\Users\Carlos\Documents\Git\EjerciciosED\Ejercicio37\Ejercicio37\hashmap_eda.h(177,2): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Carlos\Documents\Git\EjerciciosED\Ejercicio37\Ejercicio37\hashmap_eda.h(176): message : al compilar la función del miembro clase plantilla "void unordered_map<std::string,std::string,std::hash<Clave>,std::equal_to<Clave>>::libera(void)"
+          with
+          [
+              Clave=std::string
+          ]
+C:\Users\Carlos\Documents\Git\EjerciciosED\Ejercicio37\Ejercicio37\hashmap_eda.h(86): message : Vea la referencia a la creación de una instancia de la función plantilla "void unordered_map<std::string,std::string,std::hash<Clave>,std::equal_to<Clave>>::libera(void)" que se está compilando
+          with
+          [
+              Clave=std::string
+          ]
+  Ejercicio37.vcxproj -> C:\Users\Carlos\Documents\Git\EjerciciosED\Ejercicio37\Debug\Ejercicio37.exe

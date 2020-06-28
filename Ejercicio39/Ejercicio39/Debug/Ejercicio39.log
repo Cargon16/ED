@@ -1,29 +1,29 @@
 ﻿  Source.cpp
-C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio39\Ejercicio39\hashmap_eda.h(219,2): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio39\Ejercicio39\hashmap_eda.h(217): message : al compilar la función del miembro clase plantilla "void unordered_map<std::string,tDetalles,std::hash<Clave>,std::equal_to<Clave>>::amplia(void)"
+C:\Users\Carlos\Documents\Git\EjerciciosED\Ejercicio39\Ejercicio39\hashmap_eda.h(219,2): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Carlos\Documents\Git\EjerciciosED\Ejercicio39\Ejercicio39\hashmap_eda.h(217): message : al compilar la función del miembro clase plantilla "void unordered_map<std::string,tDetalles,std::hash<Clave>,std::equal_to<Clave>>::amplia(void)"
           with
           [
               Clave=std::string
           ]
-C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio39\Ejercicio39\hashmap_eda.h(135): message : Vea la referencia a la creación de una instancia de la función plantilla "void unordered_map<std::string,tDetalles,std::hash<Clave>,std::equal_to<Clave>>::amplia(void)" que se está compilando
+C:\Users\Carlos\Documents\Git\EjerciciosED\Ejercicio39\Ejercicio39\hashmap_eda.h(135): message : Vea la referencia a la creación de una instancia de la función plantilla "void unordered_map<std::string,tDetalles,std::hash<Clave>,std::equal_to<Clave>>::amplia(void)" que se está compilando
           with
           [
               Clave=std::string
           ]
-C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio39\Ejercicio39\Header.h(18): message : Vea la referencia a la creación de una instancia de clase plantilla "unordered_map<std::string,tDetalles,std::hash<Clave>,std::equal_to<Clave>>" que se está compilando
+C:\Users\Carlos\Documents\Git\EjerciciosED\Ejercicio39\Ejercicio39\Header.h(18): message : Vea la referencia a la creación de una instancia de clase plantilla "unordered_map<std::string,tDetalles,std::hash<Clave>,std::equal_to<Clave>>" que se está compilando
           with
           [
               Clave=std::string
           ]
-C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio39\Ejercicio39\hashmap_eda.h(177,2): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio39\Ejercicio39\hashmap_eda.h(176): message : al compilar la función del miembro clase plantilla "void unordered_map<std::string,tDetalles,std::hash<Clave>,std::equal_to<Clave>>::libera(void)"
+C:\Users\Carlos\Documents\Git\EjerciciosED\Ejercicio39\Ejercicio39\hashmap_eda.h(177,2): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Carlos\Documents\Git\EjerciciosED\Ejercicio39\Ejercicio39\hashmap_eda.h(176): message : al compilar la función del miembro clase plantilla "void unordered_map<std::string,tDetalles,std::hash<Clave>,std::equal_to<Clave>>::libera(void)"
           with
           [
               Clave=std::string
           ]
-C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio39\Ejercicio39\hashmap_eda.h(86): message : Vea la referencia a la creación de una instancia de la función plantilla "void unordered_map<std::string,tDetalles,std::hash<Clave>,std::equal_to<Clave>>::libera(void)" que se está compilando
+C:\Users\Carlos\Documents\Git\EjerciciosED\Ejercicio39\Ejercicio39\hashmap_eda.h(86): message : Vea la referencia a la creación de una instancia de la función plantilla "void unordered_map<std::string,tDetalles,std::hash<Clave>,std::equal_to<Clave>>::libera(void)" que se está compilando
           with
           [
               Clave=std::string
           ]
-  Ejercicio39.vcxproj -> C:\Users\agoni\Documents\Git\EjerciciosED\Ejercicio39\Debug\Ejercicio39.exe
+  Ejercicio39.vcxproj -> C:\Users\Carlos\Documents\Git\EjerciciosED\Ejercicio39\Debug\Ejercicio39.exe

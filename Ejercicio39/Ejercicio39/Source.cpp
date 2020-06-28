@@ -36,8 +36,13 @@ bool resuelveCaso() {
             if (orden == "numEjemplares") {
                 std::cin.ignore();
                 std::getline(std::cin, x);
-                int num = v.numEjemplares(x);
-                std::cout << "Existen " << num << " ejemplares del libro " << x << std::endl;
+                try {
+                    int num = v.numEjemplares(x);
+                    std::cout << "Existen " << num << " ejemplares del libro " << x << std::endl;
+                }
+                catch (std::exception) {
+                    std::cout << "No existe el libro " << x << " en el sistema\n";
+                }
             }
             if (orden == "top10") {
                 list<std::string> l = v.top10();
@@ -60,7 +65,7 @@ bool resuelveCaso() {
                 v.elimLibro(x);
             }
         }
-        catch (std::exception e) {
+        catch (std::exception& e) {
             std::cout << e.what() << std::endl;
         }
     }
